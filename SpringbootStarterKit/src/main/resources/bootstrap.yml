@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: starterkit
+  profiles:
+    active: default
+
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER:http://localhost:8888}
+    
