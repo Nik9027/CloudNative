@@ -1,9 +1,9 @@
 {
-    "family": "hello-world",
+    "family": "helloworld",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "image": "124864831979.dkr.ecr.us-west-2.amazonaws.com/hello-world:v_%BUILD_NUMBER%",
+            "name": "helloworld",
             "cpu": 10,
             "memory": 256,
             "essential": true,
